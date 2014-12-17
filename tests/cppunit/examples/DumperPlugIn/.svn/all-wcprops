@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn
+END
+DumperPlugIn.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn/DumperPlugIn.dsp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn/Makefile.in
+END
+DumperListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn/DumperListener.cpp
+END
+DumperListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn/DumperListener.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn/Makefile.am
+END
+DumperPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/DumperPlugIn/DumperPlugIn.cpp
+END

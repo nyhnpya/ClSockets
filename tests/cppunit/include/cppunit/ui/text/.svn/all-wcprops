@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/text
+END
+TestRunner.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/text/TestRunner.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/text/Makefile.in
+END
+TextTestRunner.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/text/TextTestRunner.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/text/Makefile.am
+END

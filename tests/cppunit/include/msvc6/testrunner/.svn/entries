@@ -1,0 +1,52 @@
+8
+
+dir
+363
+http://www.carrierlabs.com/svn/sockets/trunk/tests/cppunit/include/msvc6/testrunner
+http://www.carrierlabs.com/svn/sockets
+
+
+
+2008-11-19T16:45:50.035454Z
+257
+carrier
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+eeaa4c0b-9212-417a-97db-b2c7f0bbccf9
+
+TestRunner.h
+file
+
+
+
+
+2009-07-11T18:12:33.000000Z
+efbcf3f6ecce923f6ed515bdf9aeb9eb
+2008-11-19T16:45:50.035454Z
+257
+carrier
+
+TestPlugInInterface.h
+file
+
+
+
+
+2009-07-11T18:12:33.000000Z
+c08b808d9caa8a6552fd44494d7bb247
+2008-11-19T16:45:50.035454Z
+257
+carrier
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/Makefile.in
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/Main.cpp
+END
+ExampleTestCase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/ExampleTestCase.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/Makefile.am
+END
+SimplePlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/SimplePlugIn.cpp
+END
+simple_plugin.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/simple_plugin.dsp
+END
+ExampleTestCase.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/ExampleTestCase.h
+END
+simple.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/simple/simple.dsp
+END

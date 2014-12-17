@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sockets/!svn/ver/332/trunk/tests/cppunit
+END
+cppunit.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/cppunit.spec.in
+END
+BUGS
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/BUGS
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sockets/!svn/ver/328/trunk/tests/cppunit/configure
+END
+cppunit.m4
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/cppunit.m4
+END
+cppunit-config.1
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/cppunit-config.1
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/AUTHORS
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/configure.in
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/ChangeLog
+END
+cppunit.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/cppunit.pc.in
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/COPYING
+END
+cppunit-config.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/cppunit-config.in
+END
+CodingGuideLines.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/CodingGuideLines.txt
+END
+cppunit.spec
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/cppunit.spec
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/aclocal.m4
+END

@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner
+END
+TestRunnerThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerThread.cpp
+END
+TestBrowserDlgImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestBrowserDlgImpl.h
+END
+TestFailureListViewItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestFailureListViewItem.h
+END
+TestRunnerThreadEvent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerThreadEvent.cpp
+END
+TestFailureInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestFailureInfo.cpp
+END
+MostRecentTests.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/MostRecentTests.cpp
+END
+TestRunnerModelThreadInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerModelThreadInterface.h
+END
+TestRunnerThreadFinishedEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerThreadFinishedEvent.h
+END
+TestRunnerDlgImpl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerDlgImpl.cpp
+END
+qttestrunnerlib.pro
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/qttestrunnerlib.pro
+END
+TestRunnerFailureEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerFailureEvent.h
+END
+TestListViewItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestListViewItem.h
+END
+testrunnerdlg.ui
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/testrunnerdlg.ui
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/.cvsignore
+END
+TestBrowserDlgImpl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestBrowserDlgImpl.cpp
+END
+TestFailureListViewItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestFailureListViewItem.cpp
+END
+TestRunnerModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerModel.h
+END
+qttestrunner.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/qttestrunner.vcproj
+END
+TestRunnerTestCaseRunEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerTestCaseRunEvent.h
+END
+TestRunnerModelThreadInterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerModelThreadInterface.cpp
+END
+testbrowserdlg.ui
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/testbrowserdlg.ui
+END
+TestRunnerThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerThread.h
+END
+TestFailureInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestFailureInfo.h
+END
+TestRunnerThreadEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerThreadEvent.h
+END
+MostRecentTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/MostRecentTests.h
+END
+TestRunnerThreadFinishedEvent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerThreadFinishedEvent.cpp
+END
+QtTestRunner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/QtTestRunner.cpp
+END
+make_lib
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/make_lib
+END
+TestRunnerFailureEvent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerFailureEvent.cpp
+END
+TestListViewItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestListViewItem.cpp
+END
+TestRunnerDlgImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerDlgImpl.h
+END
+make_lib.bat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/make_lib.bat
+END
+qttestrunner_dll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/qttestrunner_dll.vcproj
+END
+TestRunnerModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerModel.cpp
+END
+TestRunnerTestCaseRunEvent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/qttestrunner/TestRunnerTestCaseRunEvent.cpp
+END

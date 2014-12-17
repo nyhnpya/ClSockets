@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsBuild", "WindowsBuild.vcproj", "{DC609561-C4EF-490D-A58C-9AA807C1018B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F755016-E3F7-4723-BB19-C3E142120237} = {1F755016-E3F7-4723-BB19-C3E142120237}
+		{F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F} = {F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppunit", "cppunit\src\cppunit\cppunit.vcproj", "{F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clsocket", "..\WindowsBuild\clsocket.vcproj", "{1F755016-E3F7-4723-BB19-C3E142120237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC609561-C4EF-490D-A58C-9AA807C1018B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC609561-C4EF-490D-A58C-9AA807C1018B}.Debug|Win32.Build.0 = Debug|Win32
+		{DC609561-C4EF-490D-A58C-9AA807C1018B}.Release|Win32.ActiveCfg = Release|Win32
+		{DC609561-C4EF-490D-A58C-9AA807C1018B}.Release|Win32.Build.0 = Release|Win32
+		{F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F}.Debug|Win32.Build.0 = Debug|Win32
+		{F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F}.Release|Win32.ActiveCfg = Release|Win32
+		{F592F0E2-6B2B-4988-AFE6-B0B96B21AC3F}.Release|Win32.Build.0 = Release|Win32
+		{1F755016-E3F7-4723-BB19-C3E142120237}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F755016-E3F7-4723-BB19-C3E142120237}.Debug|Win32.Build.0 = Debug|Win32
+		{1F755016-E3F7-4723-BB19-C3E142120237}.Release|Win32.ActiveCfg = Release|Win32
+		{1F755016-E3F7-4723-BB19-C3E142120237}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

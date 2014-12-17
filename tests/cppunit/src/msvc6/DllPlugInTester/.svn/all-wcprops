@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/DllPlugInTester
+END
+DllPlugInTester.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/DllPlugInTester/DllPlugInTester.cpp
+END
+DllPlugInTester.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/DllPlugInTester/DllPlugInTester.dsp
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/DllPlugInTester/.cvsignore
+END

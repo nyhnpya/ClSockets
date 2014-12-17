@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester
+END
+DllPlugInTester.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/DllPlugInTester.cpp
+END
+DllPlugInTesterTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/DllPlugInTesterTest.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/Makefile.in
+END
+DllPlugInTester.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/DllPlugInTester.vcproj
+END
+CommandLineParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/CommandLineParser.cpp
+END
+CommandLineParserTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/CommandLineParserTest.cpp
+END
+DllPlugInTester.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/DllPlugInTester.dsp
+END
+DllPlugInTesterTest.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/DllPlugInTesterTest.dsp
+END
+CommandLineParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/CommandLineParser.h
+END
+CommandLineParserTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/CommandLineParserTest.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/DllPlugInTester/Makefile.am
+END

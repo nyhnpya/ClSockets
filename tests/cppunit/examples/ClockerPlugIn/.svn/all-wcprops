@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn
+END
+WinNtTimer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/WinNtTimer.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/Makefile.in
+END
+ClockerPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerPlugIn.cpp
+END
+ClockerModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerModel.cpp
+END
+WinNtTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/WinNtTimer.h
+END
+ClockerPlugIn.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerPlugIn.dsp
+END
+ClockerModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerModel.h
+END
+Timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/Timer.cpp
+END
+ClockerXmlHook.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerXmlHook.cpp
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/Timer.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/Makefile.am
+END
+ClockerListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerListener.cpp
+END
+ClockerXmlHook.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerXmlHook.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ReadMe.txt
+END
+ClockerListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/ClockerPlugIn/ClockerListener.h
+END

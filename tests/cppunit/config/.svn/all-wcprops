@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config
+END
+ac_cxx_namespaces.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_cxx_namespaces.m4
+END
+ac_cxx_have_sstream.m4
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_cxx_have_sstream.m4
+END
+ac_cxx_rtti.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_cxx_rtti.m4
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/depcomp
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/config.guess
+END
+ac_cxx_have_strstream.m4
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_cxx_have_strstream.m4
+END
+ax_cxx_gcc_abi_demangle.m4
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ax_cxx_gcc_abi_demangle.m4
+END
+ac_dll.m4
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_dll.m4
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/config.sub
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ltmain.sh
+END
+ac_create_prefix_config_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_create_prefix_config_h.m4
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/config.h.in
+END
+bb_enable_doxygen.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/bb_enable_doxygen.m4
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/missing
+END
+ac_cxx_string_compare_string_first.m4
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/ac_cxx_string_compare_string_first.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/config/install-sh
+END

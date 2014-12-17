@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt
+END
+ExampleTestCases.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/ExampleTestCases.h
+END
+qt_example.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/qt_example.vcproj
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/Main.cpp
+END
+make_example
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/make_example
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/run.bat
+END
+qt_example.sln
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/qt_example.sln
+END
+ExampleTestCases.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/ExampleTestCases.cpp
+END
+qt_example_dll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/qt_example_dll.vcproj
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/.cvsignore
+END
+make_example.bat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/make_example.bat
+END
+qt_example.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/qt/qt_example.pro
+END

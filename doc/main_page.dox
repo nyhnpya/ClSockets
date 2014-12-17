@@ -1,0 +1,116 @@
+/**
+ \mainpage
+ 
+ \section _overview Overview
+
+ SimpleSockets is a cross platform library which encapsulates the <a href="http://en.wikipedia.org/wiki/Berkeley_sockets">Berkeley sockets API</a>.  SimpleSockets is a lightweight set of classes that allow developers to implement IP based network programs.  SimpleSockets supports both TCP and UDP network communications over both IPv4 and IPv6 based networks.  SimpleSockets has been tested on the following platforms:
+
+<ul>
+<li>Windows XP</li>
+<li>Windows Vista</li>
+<li>Windows 7</li>
+<li>Linux</li>
+<li>Solaris</li>
+<li>Macintosh</li>
+</ul>
+
+The following features are available with SimpleSockets.
+<ul>
+<li>Support for synchronous, and asynchronous sockets</li>
+<li>Supports TCP Streams</li>
+<li>Supports UDP Datagrams</li>
+<li>Supports Multicast</li>
+<li>Thread Safe</li>
+<li>Signal Safe</li>
+
+</ul>
+ 
+ 
+
+ \section _usage Usage
+ For a quick start guide to the library please see the \ref socket_cookbook.
+ A more detail overview of the SimpleSockets API can be found in the \ref socket_dev_guide section.
+
+ \section _download Download
+
+<table border="1">
+<tr>
+<th>Format</th>
+<th>Version</th>
+<th>Library</th>
+<th>Release Notes</th>
+</tr>
+
+<tr>
+<td> tgz </td>
+<td> Release 1.4.0 - linux source</td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_clsockets_1_4_0.tgz"> CLSocket Library </a></td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_Notes_1_4_0"> Release Notes </a></td>
+</tr>
+
+<tr>
+<td> zip </td>
+<td> Release 1.4.0 - win32 source </td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_clsockets_1_4_0.zip"> CLSocket Library </a></td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_Notes_1_4_0"> Release Notes </a></td>
+</tr>
+
+<tr>
+<td> exe </td>
+<td> Release 1.4.0 - win32 installer (32-bit)</td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_clsockets_1_4_0.exe"> CLSocket Library </a></td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_Notes_1_4_0"> Release Notes </a></td>
+</tr>
+
+<tr>
+<td> tgz </td>
+<td> Release 1.3.3 - linux source</td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_clsockets_1_3_3.tgz"> CLSocket Library </a></td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_Notes_1_3_3"> Release Notes </a></td>
+</tr>
+
+<tr>
+<td> zip </td>
+<td> Release 1.3.3 - win32 source </td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_clsockets_1_3_3.zip"> CLSocket Library </a></td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_Notes_1_3_3"> Release Notes </a></td>
+</tr>
+
+<tr>
+<td> exe </td>
+<td> Release 1.3.3 - win32 installer (32-bit)</td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_clsockets_1_3_3.exe"> CLSocket Library </a></td>
+<td><a href="http://sockets.carrierlabs.com/release/Release_Notes_1_3_3"> Release Notes </a></td>
+</tr>
+
+</table>
+
+ \section _install_linux Linux Install
+Installation of the library is very easy.  Untar and unzip the source then type the following: \b make \b BUILD=Release \b && \b make \b install
+<br><br>
+\b NOTE: Make sure you are logged in as root or a user that has access to system directories!
+
+ \section _install_windows Windows Install
+Installation of the library is very easy.  
+<ol>
+<li>Unpack sourse code on your machine</li>
+<li>Open the solution in the CSocket folder (CSocket.sln)</li>
+<li>Build library</li>
+</ol>
+
+
+ \section _next Coming Soon
+<ul>
+<li>Raw Socket support</li>
+<li>Dynamic library for Windows</li>
+</ul>
+
+ \section _license License
+ This library is released under
+ the GNU
+ <a href="http://www.gnu.org/copyleft/lesser.html">
+ Lesser General Public License</a>.
+
+ \author Mark Carrier (mark@carrierlabs.com)
+ */
+

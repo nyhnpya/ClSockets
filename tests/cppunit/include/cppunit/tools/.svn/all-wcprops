@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools
+END
+XmlElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools/XmlElement.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools/Makefile.in
+END
+XmlDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools/XmlDocument.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools/Makefile.am
+END
+Algorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools/Algorithm.h
+END
+StringTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/tools/StringTools.h
+END

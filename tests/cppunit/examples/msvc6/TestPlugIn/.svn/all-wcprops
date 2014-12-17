@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/msvc6/TestPlugIn
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/examples/msvc6/TestPlugIn/.cvsignore
+END

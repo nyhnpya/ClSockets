@@ -1,0 +1,52 @@
+8
+
+dir
+363
+http://www.carrierlabs.com/svn/sockets/trunk/tests/cppunit/contrib/xml-xsl
+http://www.carrierlabs.com/svn/sockets
+
+
+
+2008-11-19T16:45:50.035454Z
+257
+carrier
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+eeaa4c0b-9212-417a-97db-b2c7f0bbccf9
+
+report.xsl
+file
+
+
+
+
+2009-07-11T18:12:34.000000Z
+f053e7e4de41774689a4d8b9d95d697d
+2008-11-19T16:45:50.035454Z
+257
+carrier
+
+tests.xml
+file
+
+
+
+
+2009-07-11T18:12:34.000000Z
+0db9d1ba00a80c3853db525dcc6670af
+2008-11-19T16:45:50.035454Z
+257
+carrier
+

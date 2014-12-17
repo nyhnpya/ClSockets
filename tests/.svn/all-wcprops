@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/sockets/!svn/ver/347/trunk/tests
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sockets/!svn/ver/254/trunk/tests/stdafx.h
+END
+report.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/sockets/!svn/ver/31/trunk/tests/report.xsl
+END
+TestOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/sockets/!svn/ver/13/trunk/tests/TestOptions.h
+END
+SocketTestSuite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sockets/!svn/ver/309/trunk/tests/SocketTestSuite.cpp
+END
+UnitTestMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/sockets/!svn/ver/13/trunk/tests/UnitTestMain.cpp
+END
+WindowsBuild.sln
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sockets/!svn/ver/260/trunk/tests/WindowsBuild.sln
+END
+SocketUnitTest.depend
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sockets/!svn/ver/13/trunk/tests/SocketUnitTest.depend
+END
+SocketTestSuite.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sockets/!svn/ver/274/trunk/tests/SocketTestSuite.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/sockets/!svn/ver/254/trunk/tests/stdafx.cpp
+END
+WindowsBuild.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/sockets/!svn/ver/254/trunk/tests/WindowsBuild.cpp
+END
+WindowsBuild.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/sockets/!svn/ver/256/trunk/tests/WindowsBuild.vcproj
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/sockets/!svn/ver/347/trunk/tests/Makefile
+END
+UnitTest.depend
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sockets/!svn/ver/13/trunk/tests/UnitTest.depend
+END

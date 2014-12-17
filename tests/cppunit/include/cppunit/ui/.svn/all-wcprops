@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/ui/Makefile.am
+END

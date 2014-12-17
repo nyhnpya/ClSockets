@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="./report.xsl"?>
+<TestRun>
+  <FailedTests>
+    <FailedTest id="9">
+      <Name>NameOfTest::OpenAllPaths</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>SocketTestSuite.cpp</File>
+        <Line>432</Line>
+      </Location>
+      <Message>equality assertion failed
+- Expected: 0
+- Actual  : 2
+</Message>
+    </FailedTest>
+    <FailedTest id="16">
+      <Name>NameOfTest::SetReceiveWindowSizeActive</Name>
+      <FailureType>Assertion</FailureType>
+      <Location>
+        <File>SocketTestSuite.cpp</File>
+        <Line>337</Line>
+      </Location>
+      <Message>assertion failed
+- Expression: (unsigned int)socket.GetReceiveWindowSize() == (unsigned int)72000
+</Message>
+    </FailedTest>
+  </FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>NameOfTest::CreateTCPSocket</Name>
+    </Test>
+    <Test id="2">
+      <Name>NameOfTest::CreateUDPSocket</Name>
+    </Test>
+    <Test id="3">
+      <Name>NameOfTest::InitializeTCPSocketActive</Name>
+    </Test>
+    <Test id="4">
+      <Name>NameOfTest::InitializeTCPSocketPassive</Name>
+    </Test>
+    <Test id="5">
+      <Name>NameOfTest::InitializeUDPSocket</Name>
+    </Test>
+    <Test id="6">
+      <Name>NameOfTest::CloseOnce</Name>
+    </Test>
+    <Test id="7">
+      <Name>NameOfTest::CloseTwice</Name>
+    </Test>
+    <Test id="8">
+      <Name>NameOfTest::CloseMany</Name>
+    </Test>
+    <Test id="10">
+      <Name>NameOfTest::ConnectSuccess</Name>
+    </Test>
+    <Test id="11">
+      <Name>NameOfTest::ConnectFail</Name>
+    </Test>
+    <Test id="12">
+      <Name>NameOfTest::ConnectTimeout</Name>
+    </Test>
+    <Test id="13">
+      <Name>NameOfTest::SetSocketNonblocking</Name>
+    </Test>
+    <Test id="14">
+      <Name>NameOfTest::SetSocketBlocking</Name>
+    </Test>
+    <Test id="15">
+      <Name>NameOfTest::SetSendWindowsSizeActive</Name>
+    </Test>
+    <Test id="17">
+      <Name>NameOfTest::TranslateError</Name>
+    </Test>
+    <Test id="18">
+      <Name>NameOfTest::TCPEchoClient</Name>
+    </Test>
+    <Test id="19">
+      <Name>NameOfTest::TCPEchoClientAsync</Name>
+    </Test>
+    <Test id="20">
+      <Name>NameOfTest::UDPEchoClient</Name>
+    </Test>
+    <Test id="21">
+      <Name>NameOfTest::TCPOneByteAtTime</Name>
+    </Test>
+    <Test id="22">
+      <Name>NameOfTest::Writev</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>22</Tests>
+    <FailuresTotal>2</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>2</Failures>
+  </Statistics>
+</TestRun>

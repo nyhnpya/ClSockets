@@ -1,0 +1,217 @@
+/*! \page socket_cookbook SimpleSocket Cookbook
+Here is a short cookbook to help you get started.
+
+\section socket_overview Simple Socket Class Overview
+Network communications via sockets can be abstracted into two categories 
+of functionality; the \link CActiveSocket active socket \endlink and the 
+\link CPassiveSocket passive socket. \endlink
+The \link CActiveSocket active socket \endlink object initiates a connection with a known host, 
+whereas the \link CPassiveSocket passive socket \endlink object waits (or listens)
+for inbound requests for communication.  The functionality of both objects
+is identical as far as sending and receiving data.  This library makes distinction between the two objects because the operations for constructing and destructing the two are different.  
+
+This library is different from other socket libraries which define TCP sockets, 
+UDP sockets, HTTP sockets, etc.  The reason is the operations required for
+TCP, UDP, and RAW network communication is identical from a logical stand
+point.  Thus a program could initially be written employing TCP streams, 
+and then at some future point it could be discovered that UDP datagrams 
+would satisify the solution.  Changing between the two transport protocols
+would only require changing how the object is instantiated.  The remaining
+code would in theory require minimal to no changes.
+
+This library avoids abstractions like HTTP socket, or SMTP socket, 
+soley because this type of object mixes the application and the transport 
+layer.  These types of abstractions can be created using this library as
+a base class.  
+
+The simple socket library is comprised of two class which can be used to 
+represent all socket communications.  
+
+- \link CActiveSocket Active Socket Class  \endlink
+- \link CPassiveSocket Passive Socket Class  \endlink
+
+\par Socket Class Overview
+
+When operating on a socket object most methods will return \b true or \b false
+
+
+\section simple_acitve_socket Simple Active Socket
+As mentioned previously the active socket (CActiveSocket) is used to 
+initiate a connections with a server on some known port.  So you want 
+to connect to an existing server...
+
+How do you do it? 
+
+There are many ways using the existing Berkley Socket API, but
+the goal of this class is to remove the many calls and man page
+lookups and replace them with clear, concise set of methods which 
+allow a developer to focus on the logic of network programming.
+
+The following code will connect to a DAYTIME server on port 13, 
+query for the current time, and close the socket.
+
+\code
+#include <string.h>
+#include "ActiveSocket.h"       // Include header for active socket object definition
+
+int main(int argc, char **argv)
+{
+    CActiveSocket socket;       // Instantiate active socket object (defaults to TCP).
+    char          time[50];
+
+    memset(&time, 0, 50);
+
+    //--------------------------------------------------------------------------
+    // Initialize our socket object 
+    //--------------------------------------------------------------------------
+    socket.Initialize();
+
+    //--------------------------------------------------------------------------
+    // Create a connection to the time server so that data can be sent
+    // and received.
+    //--------------------------------------------------------------------------
+    if (socket.Open((const uint8 *)"time-C.timefreq.bldrdoc.gov", 13))
+    {
+        //----------------------------------------------------------------------
+        // Send a requtest the server requesting the current time.
+        //----------------------------------------------------------------------
+        if (socket.Send((const uint8 *)"\n", 1))
+        {
+            //------------------------------------------------------------------
+            // Receive response from the server.
+            //------------------------------------------------------------------
+            socket.Receive(49);
+            memcpy(&time, socket.GetData(), 49);
+            printf("%s\n", time);
+
+            //------------------------------------------------------------------
+            // Close the connection.
+            //------------------------------------------------------------------
+            socket.Close();
+        }
+    }
+
+
+    return 1;
+}
+\endcode
+
+You can see that the amount of code required to an object for network communciation
+is very small and simple.
+
+
+\section simple_passive_socket Simple Passive Socket
+Now you want to build a server.
+
+How do you do it? 
+
+For a practical test lets build an echo server.  The server will
+listen on port 6789 an repsond back with what ever has been sent
+to the server.
+
+\code
+//------------------------------------------------------------------------------
+// ECHO SERVER CODE
+//------------------------------------------------------------------------------
+#include "PassiveSocket.h"       // Include header for active socket object definition
+
+#define MAX_PACKET 4096 
+
+int main(int argc, char **argv)
+{
+    CPassiveSocket socket;
+    CActiveSocket *pClient = NULL;
+
+    //--------------------------------------------------------------------------
+    // Initialize our socket object 
+    //--------------------------------------------------------------------------
+    socket.Initialize();
+
+    socket.Listen((const uint8 *)"127.0.0.1", 6789);
+
+    while (true)
+    {
+        if ((pClient = socket.Accept()) != NULL)
+        {
+            //------------------------------------------------------------------
+            // Receive request from the client.
+            //------------------------------------------------------------------
+            if (pClient->Receive(MAX_PACKET))
+            {
+                //--------------------------------------------------------------
+                // Send response to client and close connection to the client.
+                //--------------------------------------------------------------
+                pClient->Send((const uint8 *)pClient->GetData(), pClient->GetBytesReceived());
+                pClient->Close();
+            }
+
+            delete pClient;
+        }
+    }
+
+    //--------------------------------------------------------------------------
+    // Receive request from the client.
+    //--------------------------------------------------------------------------
+    socket.Close();
+
+    return 1;
+}
+
+//------------------------------------------------------------------------------
+// Echo Server Client
+//------------------------------------------------------------------------------
+#include <string.h>
+#include "ActiveSocket.h"       // Include header for active socket object definition
+
+#define TEST_PACKET "TestPacket"
+#define MAX_PACKET  1024
+
+int main(int argc, char **argv)
+{
+    CActiveSocket socket;       // Instantiate active socket object (defaults to TCP).
+    char          szData[MAX_PACKET];
+
+    memset(szData, 0, MAX_PACKET);
+
+    //--------------------------------------------------------------------------
+    // Initialize our socket object
+    //--------------------------------------------------------------------------
+    socket.Initialize();
+
+    //--------------------------------------------------------------------------
+    // Create a connection to the time server so that data can be sent
+    // and received.
+    //--------------------------------------------------------------------------
+    if (socket.Open((const uint8 *)"localhost", 6789))
+    {
+        //----------------------------------------------------------------------
+        // Send a requtest the server requesting the current time.
+        //----------------------------------------------------------------------
+        if (socket.Send((const uint8 *)TEST_PACKET, strlen(TEST_PACKET)))
+        {
+            //------------------------------------------------------------------
+            // Receive response from the server.
+            //------------------------------------------------------------------
+            socket.Receive(1024);
+
+            strncpy(szData, (const char *)socket.GetData(), socket.GetBytesReceived());
+            printf("%s\n", szData);
+
+            //------------------------------------------------------------------
+            // Close the connection.
+            //------------------------------------------------------------------
+            socket.Close();
+        }
+    }
+
+
+    return 1;
+}
+\endcode
+You can see that the amount of code used to do this is very small,
+very easy to read, and very flexible.
+
+
+
+
+*/

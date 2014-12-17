@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['m_5fbisblocking',['m_bIsBlocking',['../classCSimpleSocket.html#a0fa46b098f507235ab93300d9cede03b',1,'CSimpleSocket']]],
+  ['m_5fbismulticast',['m_bIsMulticast',['../classCSimpleSocket.html#a2d8ff68b695387829b943db91114e2ed',1,'CSimpleSocket']]],
+  ['m_5ferrorfds',['m_errorFds',['../classCSimpleSocket.html#a09720c2fe0c1f845b2b8ada42aa57cca',1,'CSimpleSocket']]],
+  ['m_5fnbuffersize',['m_nBufferSize',['../classCSimpleSocket.html#a922adeaa565bf48b70c94cd1062cf966',1,'CSimpleSocket']]],
+  ['m_5fnbytesreceived',['m_nBytesReceived',['../classCSimpleSocket.html#a5eab8f504965f986debf1fabe16f9c02',1,'CSimpleSocket']]],
+  ['m_5fnbytessent',['m_nBytesSent',['../classCSimpleSocket.html#a961f1d48a92aca4758ff3d9edabae3be',1,'CSimpleSocket']]],
+  ['m_5fnflags',['m_nFlags',['../classCSimpleSocket.html#abb4748d3b25cf5591a8f0c1108f59c0b',1,'CSimpleSocket']]],
+  ['m_5fnsocketdomain',['m_nSocketDomain',['../classCSimpleSocket.html#a5ff3c7572a658d0cedc180ccffb74580',1,'CSimpleSocket']]],
+  ['m_5fnsockettype',['m_nSocketType',['../classCSimpleSocket.html#aaa237251e64e0a5018eb773901fa8000',1,'CSimpleSocket']]],
+  ['m_5fpbuffer',['m_pBuffer',['../classCSimpleSocket.html#a4f17317b9f61a1a0d0b849fb5089333b',1,'CSimpleSocket']]],
+  ['m_5freadfds',['m_readFds',['../classCSimpleSocket.html#ac1a4125a37090b19b1b9604de1cf84a9',1,'CSimpleSocket']]],
+  ['m_5fsocket',['m_socket',['../classCSimpleSocket.html#a8d17e468e981ec84f6eba64c82e32ec1',1,'CSimpleSocket']]],
+  ['m_5fsocketerrno',['m_socketErrno',['../classCSimpleSocket.html#a4c6904a3857098c5b1261d2183292951',1,'CSimpleSocket']]],
+  ['m_5fstclientsockaddr',['m_stClientSockaddr',['../classCSimpleSocket.html#a90df0422c5ebfa4bc9d1499265b717f6',1,'CSimpleSocket']]],
+  ['m_5fstconnecttimeout',['m_stConnectTimeout',['../classCSimpleSocket.html#aa7c7a1be0b72beac2c9ddac8354d60d3',1,'CSimpleSocket']]],
+  ['m_5fstlinger',['m_stLinger',['../classCSimpleSocket.html#a2f47c6ad98e583fa74fab014bfc9a6ac',1,'CSimpleSocket']]],
+  ['m_5fstmulticastgroup',['m_stMulticastGroup',['../classCSimpleSocket.html#a00d93aa0620e16737f9b7889c910d0df',1,'CSimpleSocket']]],
+  ['m_5fstrecvtimeout',['m_stRecvTimeout',['../classCSimpleSocket.html#af36c0eb9621fdf0587c5702c0f06b814',1,'CSimpleSocket']]],
+  ['m_5fstsendtimeout',['m_stSendTimeout',['../classCSimpleSocket.html#a1074180f257ee695aeaeeb16127efde2',1,'CSimpleSocket']]],
+  ['m_5fstserversockaddr',['m_stServerSockaddr',['../classCSimpleSocket.html#a4c8501230c0005df31597b50abd330cf',1,'CSimpleSocket']]],
+  ['m_5ftimer',['m_timer',['../classCSimpleSocket.html#a79d0091533c01bd883f89d976cf851e6',1,'CSimpleSocket']]],
+  ['m_5fwritefds',['m_writeFds',['../classCSimpleSocket.html#a802754bb89c6a6e3ef2d11e5146b8de9',1,'CSimpleSocket']]]
+];

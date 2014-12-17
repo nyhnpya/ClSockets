@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions
+END
+RepeatedTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/RepeatedTest.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/Makefile.in
+END
+TypeInfoHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TypeInfoHelper.h
+END
+ExceptionTestCaseDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/ExceptionTestCaseDecorator.h
+END
+TestFactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestFactoryRegistry.h
+END
+TestSetUp.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestSetUp.h
+END
+TestNamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestNamer.h
+END
+TestSuiteBuilderContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestSuiteBuilderContext.h
+END
+Orthodox.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/Orthodox.h
+END
+TestFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestFactory.h
+END
+TestCaseDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestCaseDecorator.h
+END
+TestFixtureFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestFixtureFactory.h
+END
+TestSuiteFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestSuiteFactory.h
+END
+TestDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/TestDecorator.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/Makefile.am
+END
+HelperMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/HelperMacros.h
+END
+AutoRegisterSuite.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/include/cppunit/extensions/AutoRegisterSuite.h
+END

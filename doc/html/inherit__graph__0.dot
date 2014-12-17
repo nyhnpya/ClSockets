@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="FreeSans",fontsize=10,labelfontname="FreeSans",labelfontsize=10];
+  node [fontname="FreeSans",fontsize=10,shape=record];
+  rankdir=LR;
+  Node1 [label="CSimpleSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCSimpleSocket.html",tooltip="Provides a platform independent class to for socket development."];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize=10,style="solid",fontname="FreeSans"];
+  Node2 [label="CActiveSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCActiveSocket.html",tooltip="Provides a platform independent class to create an active socket."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize=10,style="solid",fontname="FreeSans"];
+  Node3 [label="CPassiveSocket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCPassiveSocket.html",tooltip="Provides a platform independent class to create a passive socket."];
+}

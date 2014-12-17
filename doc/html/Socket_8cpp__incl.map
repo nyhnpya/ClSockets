@@ -1,0 +1,4 @@
+base referer
+rect $Socket_8h.html 144,178 218,202
+rect $Host_8h.html 408,322 469,346
+rect $StatTimer_8h.html 266,298 357,322

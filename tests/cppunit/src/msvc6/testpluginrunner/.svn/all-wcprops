@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner
+END
+StdAfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/StdAfx.h
+END
+TestPlugIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugIn.cpp
+END
+TestPlugInRunnerApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunnerApp.h
+END
+TestPlugIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugIn.h
+END
+TestPlugInRunnerModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunnerModel.cpp
+END
+TestPlugInRunner.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunner.vcproj
+END
+TestPlugInRunner.rc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunner.rc
+END
+TestPlugInException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInException.cpp
+END
+TestPlugInRunnerModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunnerModel.h
+END
+TestPlugInRunnerDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunnerDlg.cpp
+END
+TestPlugInException.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInException.h
+END
+TestPlugInRunnerDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunnerDlg.h
+END
+StdAfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/StdAfx.cpp
+END
+TestPlugInRunnerApp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunnerApp.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/ReadMe.txt
+END
+TestPlugInRunner.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/TestPlugInRunner.dsp
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/Resource.h
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sockets/!svn/ver/257/trunk/tests/cppunit/src/msvc6/testpluginrunner/.cvsignore
+END
