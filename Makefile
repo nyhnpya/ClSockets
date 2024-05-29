@@ -1,26 +1,11 @@
 ##############################################################################
 # SimpleSocket Library Makefile
 ###############################################################################
-#
-# The following variables must be set for the makefile to work correctly
-# (although they can be set to NULL):
-#
-# TARG_DIR               - Directory of sources
-# TARG_TYPE              - library or executable
-# TARG_NAME              - Name of final executable/library
-# TARG_OPTIONS           - options to be used for compiling all version 
-# TARG_DEBUG_OPTIONS     - target specific options to use when compiling
-#                          a debug version (BUILD=Debug)
-# TARG_OPTIMIZED_OPTIONS - target specific options to use when compiling
-#                          a non-debug execution (BUILD=Release)
-# TARG_SOURCES           - Additional files used by this target (.cpp .h)
-# 
-##############################################################################
 include $(MAKEFILEHOME)/Makefile.platform
 
 TARG_SOURCE_DIR = $(CURDIR)
-TARG_BUILD_MAJOR     = 1
-TARG_BUILD_MINOR     = 4
+TARG_BUILD_MAJOR     = 2
+TARG_BUILD_MINOR     = 0
 TARG_BUILD_PATCH     = 0
 TARG_BUILD_REVISION  = 0
 TARGET_TYPE              = library
@@ -28,11 +13,15 @@ TARGET_NAME              = clsocket
 
 TARG_OPTIONS           += -std=c++11
 
-TARG_INCLUDES += -I .
+###############################################################################
+# compilation flags
+###############################################################################
+# Includes
+TARG_INCLUDES += -I $(CURDIR)/include
 
-TARG_CPP_SOURCES += SimpleSocket.cpp
-TARG_CPP_SOURCES += ActiveSocket.cpp
-TARG_CPP_SOURCES += PassiveSocket.cpp
+TARG_CPP_SOURCES += src/SimpleSocket.cpp
+TARG_CPP_SOURCES += src/ActiveSocket.cpp
+TARG_CPP_SOURCES += src/PassiveSocket.cpp
 
 ###############################################################################
 # Installation section
