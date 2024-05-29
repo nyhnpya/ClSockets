@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     //--------------------------------------------------------------------------
     socket.Initialize();
                                         
-    socket.Listen((const uint8 *)"127.0.0.1", 6789);
+    socket.Listen((const uint8_t *)"127.0.0.1", 6789);
 
     while (true)
     {
@@ -34,7 +34,7 @@ int main(int argc, char **argv)
                 //--------------------------------------------------------------
                 // Send response to client and close connection to the client.
                 //--------------------------------------------------------------
-                pClient->Send((const uint8 *)pClient->GetData(),
+                pClient->Send((const uint8_t *)pClient->GetData(),
                               pClient->GetBytesReceived());
                 
                 pClient->Close();

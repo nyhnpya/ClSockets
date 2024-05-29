@@ -32,14 +32,14 @@ int main(int argc, char **argv)
     // Create a connection to the time server so that data can be sent
     // and received.
     //--------------------------------------------------------------------------
-    if (socket.Open((const uint8 *)"localhost", 6789))
+    if (socket.Open((const uint8_t *)"localhost", 6789))
     {
         
         //----------------------------------------------------------------------
         // Send a requtest the server requesting the current time.
         //----------------------------------------------------------------------
         timer.SetStartTime();
-        if (socket.Send((const uint8 *)TEST_PACKET, strlen(TEST_PACKET)))
+        if (socket.Send((const uint8_t *)TEST_PACKET, strlen(TEST_PACKET)))
         {
                                         
             //------------------------------------------------------------------

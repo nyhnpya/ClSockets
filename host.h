@@ -48,12 +48,6 @@ extern "C"
 #endif
 
 #if defined(_LINUX) || defined(_DARWIN)
-    typedef unsigned char  uint8;
-    typedef char           int8;
-    typedef unsigned short uint16;
-    typedef short          int16;
-    typedef unsigned int   uint32;
-    typedef int            int32;
     typedef int            SOCKET;
 #endif
 
@@ -63,12 +57,6 @@ extern "C"
         size_t iov_len;
     };
 
-    typedef unsigned char  uint8;
-    typedef char           int8;
-    typedef unsigned short uint16;
-    typedef short          int16;
-    typedef unsigned int   uint32;
-    typedef int            int32;
 #endif
 
 #ifdef WIN32
@@ -140,7 +128,7 @@ extern "C"
 #define RECV(a,b,c,d)          recv(a, (char *)b, c, d)
 #define RECVFROM(a,b,c,d,e,f)  recvfrom(a, (char *)b, c, d, (sockaddr *)e, (int *)f)
 #define RECV_FLAGS             MSG_WAITALL
-#define SELECT(a,b,c,d,e)      select((int32)a,b,c,d,e)
+#define SELECT(a,b,c,d,e)      select((int32_t)a,b,c,d,e)
 #define SEND(a,b,c,d)          send(a, (const char *)b, (int)c, d)
 #define SENDTO(a,b,c,d,e,f)    sendto(a, (const char *)b, (int)c, d, e, f)
 #define SEND_FLAGS             0
@@ -165,8 +153,8 @@ extern "C"
 #define RECVFROM(a,b,c,d,e,f)  recvfrom(a, (char *)b, c, d, (sockaddr *)e, f)
 #define RECV_FLAGS             MSG_WAITALL
 #define SELECT(a,b,c,d,e)      select(a,b,c,d,e)
-#define SEND(a,b,c,d)          send(a, (const int8 *)b, c, d)
-#define SENDTO(a,b,c,d,e,f)    sendto(a, (const int8 *)b, c, d, e, f)
+#define SEND(a,b,c,d)          send(a, (const int8_t *)b, c, d)
+#define SENDTO(a,b,c,d,e,f)    sendto(a, (const int8_t *)b, c, d, e, f)
 #define SEND_FLAGS             0
 #define SENDFILE(a,b,c,d)      sendfile(a, b, c, d)
 #define SET_SOCKET_ERROR(x,y)  errno=y

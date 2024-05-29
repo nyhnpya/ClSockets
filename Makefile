@@ -16,44 +16,46 @@
 # TARG_SOURCES           - Additional files used by this target (.cpp .h)
 # 
 ##############################################################################
-include ./Makefiles/Makefile.platform
+include $(MAKEFILEHOME)/Makefile.platform
 
-TARG_BUILD_MAJOR       =1
-TARG_BUILD_MINOR       =4
-TARG_BUILD_VERSION     =0
-TARG_DIR               = .
-TARG_TYPE              = library
-TARG_NAME              = clsocket
-TARG_INSTALL           = /usr/local/lib
+TARG_SOURCE_DIR = $(CURDIR)
+TARG_BUILD_MAJOR     = 1
+TARG_BUILD_MINOR     = 4
+TARG_BUILD_PATCH     = 0
+TARG_BUILD_REVISION  = 0
+TARGET_TYPE              = library
+TARGET_NAME              = clsocket
 
-TARG_OPTIONS           = -Wall -pedantic -fPIC
-TARG_DEBUG_OPTIONS     = 
-TARG_OPTIMIZED_OPTIONS = 
-TARG_LDFLAGS           = 
+TARG_OPTIONS           += -std=c++11
 
-TARG_HEADERS           = ActiveSocket.h  \
-			 Host.h          \
-			 PassiveSocket.h \
-			 SimpleSocket.h  \
-			 StatTimer.h
+TARG_INCLUDES += -I .
 
-TARG_SOURCES           = SimpleSocket.cpp  \
-			 ActiveSocket.cpp  \
-			 PassiveSocket.cpp 
+TARG_CPP_SOURCES += SimpleSocket.cpp
+TARG_CPP_SOURCES += ActiveSocket.cpp
+TARG_CPP_SOURCES += PassiveSocket.cpp
+
+###############################################################################
+# Installation section
+###############################################################################
+
+# package control file
+PACKAGE_DESCRIPTION = "FederatedDesigns cross platform socket library"
+PACKAGE_DEV_DESCRIPTION = "FederatedDesigns cross platform socket development library"
+PACKAGE_MAINTAINER = "Mark Carrier \<mark@federateddesigns.com\>"
+
+# package include files
+PACKAGE_INCLUDE_FILES = $(CURDIR)/ActiveSocket.h
+PACKAGE_INCLUDE_FILES += $(CURDIR)/Host.h
+PACKAGE_INCLUDE_FILES += $(CURDIR)/HTTPActiveSocket.h
+PACKAGE_INCLUDE_FILES += $(CURDIR)/PassiveSocket.h
+PACKAGE_INCLUDE_FILES += $(CURDIR)/SimpleSocket.h
+PACKAGE_INCLUDE_FILES += $(CURDIR)/StatTimer.h
+
 
 ###############################################################################
 # Include a Makefile to configure the compiler, etc for the current platform
 # (This is relative to the Makefile that included this Makefile!)
 ###############################################################################
-include ./Makefiles/Makefile.macros
-include ./Makefiles/Makefile.basic
+include $(MAKEFILEHOME)/Makefile.macros
+include $(MAKEFILEHOME)/Makefile.basic
 
-install: $(TARGET)
-	cp -f $(TARG_HEADERS) /usr/local/include
-	cp -f $(TARGET) /usr/local/lib/$(TARGET_A)
-	cp -f $(TARGET_SO) /usr/local/lib/$(TARGET_REAL_NAME)
-	ln -sf /usr/local/lib/$(TARGET_REAL_NAME) /usr/local/lib/$(TARGET_SO_NAME)
-	ln -sf /usr/local/lib/$(TARGET_REAL_NAME) /usr/local/lib/$(TARGET_LINKER_NAME)
-	ldconfig /usr/local/lib
-
-test:

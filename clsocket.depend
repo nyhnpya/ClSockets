@@ -1,6 +1,15 @@
-$(OBJ_DIR)/ActiveSocket.o: ActiveSocket.cpp ActiveSocket.h SimpleSocket.h \
- Host.h StatTimer.h
-$(OBJ_DIR)/PassiveSocket.o: PassiveSocket.cpp PassiveSocket.h \
- ActiveSocket.h SimpleSocket.h Host.h StatTimer.h
-$(OBJ_DIR)/SimpleSocket.o: SimpleSocket.cpp SimpleSocket.h Host.h \
- StatTimer.h
+/ActiveSocket.o: /home/carrier/git/clsockets/ActiveSocket.cpp \
+ /home/carrier/git/clsockets/ActiveSocket.h \
+ /home/carrier/git/clsockets/SimpleSocket.h \
+ /home/carrier/git/clsockets/host.h \
+ /home/carrier/git/clsockets/StatTimer.h
+/PassiveSocket.o: /home/carrier/git/clsockets/PassiveSocket.cpp \
+ /home/carrier/git/clsockets/PassiveSocket.h \
+ /home/carrier/git/clsockets/ActiveSocket.h \
+ /home/carrier/git/clsockets/SimpleSocket.h \
+ /home/carrier/git/clsockets/host.h \
+ /home/carrier/git/clsockets/StatTimer.h
+/SimpleSocket.o: /home/carrier/git/clsockets/SimpleSocket.cpp \
+ /home/carrier/git/clsockets/SimpleSocket.h \
+ /home/carrier/git/clsockets/host.h \
+ /home/carrier/git/clsockets/StatTimer.h

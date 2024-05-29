@@ -1,6 +1,0 @@
-base referer
-rect $ActiveSocket_8h.html 130,32 242,56
-rect $Socket_8cpp.html 142,80 230,104
-rect $ActiveSocket_8cpp.html 290,8 416,32
-rect $PassiveSocket_8h.html 293,56 413,80
-rect $PassiveSocket_8cpp.html 465,56 598,80
